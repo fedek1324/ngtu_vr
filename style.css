@@ -60,3 +60,13 @@ header {
     font-size: 80px;
     line-height: 80px;
 }
+
+.vr-content {
+    width: 100%;
+    height: 800px;
+}
+
+.vr-content-1 {
+    width: 100%;
+    height: 100%;
+}
