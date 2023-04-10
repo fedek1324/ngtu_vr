@@ -25,6 +25,8 @@ header {
     line-height: 16px;
 }
 
+
+
 .welcome {
     background-color: #1A1A1A;
     /* height: 100vh; */
@@ -160,6 +162,69 @@ header {
 
     color: #FFFFFF;
 }
+
+
+
+.section-header {
+    padding: 45px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-header__text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 68px;
+    /* identical to box height, or 155% */
+    text-align: center;
+
+    padding-bottom: 10px;
+}
+
+.section__line {
+    width: 150px;
+    height: 4px;
+
+    background: #FE3C75;
+}
+
+
+
+.about-us {
+    background-color: #0F0F0F;
+    padding-bottom: 200px;
+}
+
+.about-us__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us__text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.about-us__image-container {
+    padding: 40px;
+}
+
+.about-us__image {
+    width: 100%;
+}
+
+
 
 .vr-content {
     width: 100%;
