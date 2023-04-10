@@ -229,6 +229,10 @@ header {
 .vr-content {
     width: 100%;
     height: 800px;
+
+    padding: 117px;
+
+    background-color: #0F0F0F;
 }
 
 .vr-content-1 {
