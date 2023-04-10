@@ -13,7 +13,7 @@ header {
 }
 
 .header__logo {
-    padding-left: 80px;
+    padding-left: 10vw;
 }
 
 .header__title {
@@ -27,7 +27,7 @@ header {
 
 .welcome {
     background-color: #1A1A1A;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .big-title {
@@ -51,6 +51,7 @@ header {
     color: #FD3A77;
 
     width: 28px;
+    padding: 20px 0;
 }
 
 .big-title__h1 {
@@ -58,11 +59,17 @@ header {
     font-weight: 500;
     font-size: 80px;
     line-height: 80px;
+    
+    padding: 20px 0;
 }
 
 .big-title__image {
     width: 100%;
     padding: 20px 0;
+}
+
+.welcome__girl-illustration {
+    
 }
 
 .vr-content {
