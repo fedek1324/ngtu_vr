@@ -61,8 +61,8 @@ header {
     font-weight: 500;
     font-size: 80px;
     line-height: 80px;
-    
     padding: 20px 0;
+    overflow: auto;
 }
 
 .big-title__image {
@@ -208,12 +208,19 @@ header {
     align-items: center;
 }
 
+.about-us__text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .about-us__text {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 30px;
+    /* text-align: center; */
 }
 
 .about-us__image-container {
@@ -243,4 +250,19 @@ header {
 .l-flex {
     display: flex;
     align-content: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    .big-title__h1 {
+        font-size: 48px;
+    }
+
+    .header__logo {
+    padding-left: 5vw;
+    }
+
+    .welcome__girl-illustration {
+        padding-top: 40px;
+    }
 }
