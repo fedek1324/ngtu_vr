@@ -14,7 +14,8 @@
         $(function(){
           $("#includedContent").load("./output/index.html"); 
         });
-    </script> 
+    </script>
+    <script src="index.js"></script> 
 </head>
 <body>
     <header class="header">
@@ -33,7 +34,25 @@
                 </div>
             </div>
         </div>
-        <img class="welcome__girl-illustration" src="static/girl.png" alt="illustration">
+        <div class="welcome__second-row">
+            <div class="welcome__menu col-md-6">
+                <span class="welcome__menu-text">
+                    Выберете место, которое хотите посетить:
+                </span>
+                <div class="welcome__dropdown" onclick="showDropdown()">
+                    <img class="welcome__dropdown-arrow" src="static/arrowDown.svg" alt="arrow" srcset="">
+                    <div class="welcome_dropdown-content">
+                        <a href="404NOREFERENCEERROR">МФЗ</a>
+                        <a href="404NOREFERENCEERROR">Спорт. зал 6 к.</a>
+                        <a href="404NOREFERENCEERROR">ИЦАЭ</a>
+                        <a href="404NOREFERENCEERROR">Школа хакатонщиков</a>
+                    </div>
+                </div>
+            </div>
+            <div class="welcome__illustration col-md-6">
+                <img class="welcome__girl-illustration" src="static/girl.png" alt="illustration">
+            </div>
+        </div>
     </section>
     <div class="vr-content">
         <iframe src="output/index.html" class="vr-content-1"></iframe>
