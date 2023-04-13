@@ -47,16 +47,6 @@ header {
     position: absolute;
 }
 
-.welcome_bg-position1 {
-    bottom: 320px;
-    left: 70px;
-}
-
-.welcome_bg-position2 {
-    bottom: 100px;
-    left: 300px;
-}
-
 .welcome__background-text {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -117,7 +107,7 @@ header {
     /* padding-left: auto; */
     width: 100%;
     /* width: 100%; */
-    z-index: 1;
+    z-index: 0;
 }
 
 .welcome__second-row {
@@ -289,6 +279,41 @@ header {
 .l-flex {
     display: flex;
     align-content: center;
+}
+
+
+.welcome_bg-position1 {
+    bottom: 320px;
+    left: 200px;
+}
+
+.welcome_bg-position2 {
+    bottom: 100px;
+    left: 700px;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+
+    .welcome_bg-position1 {
+        bottom: 320px;
+        left: 70px;
+    }
+    
+    .welcome_bg-position2 {
+        bottom: 100px;
+        left: 300px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .about-us__text {
+        font-size: 14px;
+    }
+
+    
 }
 
 @media screen and (max-width: 768px) {
