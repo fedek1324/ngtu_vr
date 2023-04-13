@@ -43,16 +43,30 @@ header {
     z-index: 9;
 }
 
+.welcome__background-text-container {
+    position: absolute;
+}
+
+.welcome_bg-position1 {
+    bottom: 320px;
+    left: 70px;
+}
+
+.welcome_bg-position2 {
+    bottom: 100px;
+    left: 300px;
+}
+
 .welcome__background-text {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
+    font-weight: 400;
     font-size: 154px;
     line-height: 80px;
     /* identical to box height, or 52% */
-
-
     color: rgba(255, 255, 255, 0.15);
+    z-index: -1;
 }
 
 .big-title {
@@ -85,7 +99,7 @@ header {
     font-weight: 500;
     font-size: 80px;
     line-height: 80px;
-    padding: 5px 0; /* for text to fit in line hight from Figma or scroll bar appears*/
+    padding: 10px 0; /* for text to fit in line hight from Figma or scroll bar appears*/
     overflow: auto;
 }
 
@@ -103,6 +117,7 @@ header {
     /* padding-left: auto; */
     width: 100%;
     /* width: 100%; */
+    z-index: 1;
 }
 
 .welcome__second-row {
@@ -288,5 +303,9 @@ header {
 
     .welcome__girl-illustration {
         padding-top: 40px;
+    }
+
+    .welcome__background-text-container {
+        display: none;
     }
 }
