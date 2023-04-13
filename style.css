@@ -10,19 +10,22 @@ header {
     background-color: #1A1A1A;
     display: flex;
     align-items: center;
+
 }
 
 .header__logo {
     padding-left: 10vw;
+    height: 67px;
+    z-index: 100;
 }
 
 .header__title {
     max-width: 356px;
-
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
+    z-index: 100;
 }
 
 
@@ -32,10 +35,32 @@ header {
     /* height: 100vh; */
 }
 
+.blue-spot {
+    width: 400px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9;
+}
+
+.welcome__background-text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 154px;
+    line-height: 80px;
+    /* identical to box height, or 52% */
+
+
+    color: rgba(255, 255, 255, 0.15);
+}
+
 .big-title {
     display: flex;
     align-items: end;
     flex-wrap: wrap;
+    
+    padding-top: 145px;
 }
 
 .big-title__text {
@@ -53,7 +78,6 @@ header {
     color: #FD3A77;
 
     width: 28px;
-    padding: 20px 0;
 }
 
 .big-title__h1 {
@@ -61,7 +85,7 @@ header {
     font-weight: 500;
     font-size: 80px;
     line-height: 80px;
-    padding: 20px 0;
+    padding: 5px 0; /* for text to fit in line hight from Figma or scroll bar appears*/
     overflow: auto;
 }
 
@@ -78,8 +102,7 @@ header {
 .welcome__girl-illustration {
     /* padding-left: auto; */
     width: 100%;
-    position: relative;
-    right: 0;
+    /* width: 100%; */
 }
 
 .welcome__second-row {
@@ -260,6 +283,7 @@ header {
 
     .header__logo {
     padding-left: 5vw;
+    height: 1;
     }
 
     .welcome__girl-illustration {
