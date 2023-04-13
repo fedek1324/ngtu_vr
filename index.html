@@ -47,13 +47,13 @@
                 <span class="welcome__menu-text">
                     Выберете место, которое хотите посетить:
                 </span>
-                <div class="welcome__dropdown" onclick="showDropdown()">
+                <div class="welcome__dropdown" onclick="showDropdown(event)">
                     <img class="welcome__dropdown-arrow" src="static/arrowDown.svg" alt="arrow" srcset="">
                     <div class="welcome_dropdown-content">
-                        <a class="welcome__dropdown-link" href="404NOREFERENCEERROR">МФЗ</a>
-                        <a class="welcome__dropdown-link" href="404NOREFERENCEERROR">Спорт. зал 6 к.</a>
-                        <a class="welcome__dropdown-link" href="404NOREFERENCEERROR">ИЦАЭ</a>
-                        <a class="welcome__dropdown-link" href="404NOREFERENCEERROR">Школа хакатонщиков</a>
+                        <a class="welcome__dropdown-link" onclick="emptyLink()">МФЗ</a>
+                        <a class="welcome__dropdown-link" onclick="emptyLink()">Спорт. зал 6 к.</a>
+                        <a class="welcome__dropdown-link" onclick="emptyLink()">ИЦАЭ</a>
+                        <a class="welcome__dropdown-link" onclick="emptyLink()">Школа хакатонщиков</a>
                         <a class="welcome__dropdown-link" href="#vr">Помещение 4 корпус</a>
                     </div>
                 </div>
@@ -64,6 +64,13 @@
         </div>
     </section>
     <section class="about-us">
+        <div class="about-us__spot-top-container">
+            <img class="about-us__spot-top" src="static/orangeSpotTop.png" alt="orange spot">
+        </div>
+        <div class="about-us__spot-bottom-container">
+            <img class="about-us__spot-bottom" src="static/orangeSpotTop.png" alt="orange spot">
+        </div>
+        <div class="separator"></div>
         <div class="container">
             <div class="section-header">
                 <h2 class="section-header__text">О нас</h2>
@@ -83,9 +90,10 @@
             </div>
         </div>
     </section>
-    <div class="vr-content">
+
+    <section class="vr-content">
         <a name="vr"></a>
         <iframe src="output/index.html" class="vr-content-1"></iframe>
-    </div>
+    </section>
 </body>
 </html>
